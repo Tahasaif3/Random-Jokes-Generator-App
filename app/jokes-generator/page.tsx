@@ -1,6 +1,5 @@
 'use client'
 
-import { useState } from 'react'
 import { useJoke } from '../hooks/useJoke'
 
 export default function Home() {
@@ -31,7 +30,7 @@ export default function Home() {
         {isLoading ? 'Loading...' : 'Get New Joke'}
       </button>
             
-        <footer className="bg-gradient-to-br from-purple-500 to-indigo-600 text-white py-6 mt-8 w-full">
+      <footer className="bg-gradient-to-br from-purple-500 to-indigo-600 text-white py-6 mt-8 w-full">
         <div className="text-center">
           <p className="text-2xl font-bold">Made By Taha Saif (GIAIC Student)</p>
         </div>
