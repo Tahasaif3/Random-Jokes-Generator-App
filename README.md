@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Random Joke Generator App
 
-## Getting Started
+This is a simple **Random Joke Generator** built with **Next.js**, **React**, and **Tailwind CSS**. The app allows users to generate random jokes, which are fetched from an external API and displayed on the page. It has a clean and modern design, and you can fetch new jokes with a single click.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Random Jokes**: Fetch and display random jokes with a button click.
+- **Responsive Design**: The app is fully responsive and works seamlessly across all screen sizes.
+- **Smooth UI**: Styled using **Tailwind CSS** for a sleek and modern interface.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: React framework for building the app.
+- **React**: Frontend library for creating the UI components.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Joke API**: External API for fetching random jokes.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation
 
-## Learn More
+1. **Clone the repository**:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://github.com/Tahasaif3/Random-Jokes-Generator-App.git
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Navigate to the project directory**:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   cd Random-Jokes-Generator-App
+   ```
 
-## Deploy on Vercel
+3. **Install the dependencies**:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. **Run the development server**:
+
+   ```bash
+   npm run dev
+   ```
+
+   Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
+
+## Usage
+
+- Click on the **"Get New Joke"** button to fetch and display a new random joke.
+- The app will display the joke's setup and punchline.
+
+## How It Works
+
+- The app uses a custom `useJoke` hook to fetch data from an external joke API.
+- The API request is triggered when the user clicks the **"Get New Joke"** button.
+- The app shows a loading state while the joke is being fetched.
+
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+- **Taha Saif** - [GitHub Profile](https://github.com/Tahasaif3)
+
+Feel free to reach out for any questions or suggestions!
+
+---
+
+### Acknowledgements
+
+- Jokes powered by an external [Joke API](https://official-joke-api.appspot.com/).
+- Built with Next.js and Tailwind CSS.
+
+
